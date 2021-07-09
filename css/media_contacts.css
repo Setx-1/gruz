@@ -1,0 +1,259 @@
+@media(max-width:1440px){
+    .map{
+        margin: 0 auto;
+        width: 87%;
+        margin-bottom: 100px;
+        padding-left: 93px;
+    }
+    .nav_menu{
+        padding-right: 0px;
+    }
+}
+@media(max-width:1432px){
+    .map{
+        margin: 0 auto;
+        width: 98%;
+        margin-bottom: 100px;
+        padding-left: 62px;
+    }
+    .footer{
+        width: 90%;
+
+    }
+    .main{
+        width: 90%;
+    }
+    .background{
+        width: 90%;
+    }
+}
+@media(max-width:1272px){
+    .form{
+        padding-left: 0px;
+        width: 60%;
+    }
+    .text{
+        width: 40%;
+    }
+}
+@media(max-width:1115px){
+    .footer-nav{
+        width: 50%;
+    }
+    .social{
+        margin-left: 100px;
+    }
+    .name{
+        padding-right: 394px;
+    }
+}
+@media(max-width:1024px){
+    .text p{
+        font-size: 14px;
+    }
+    .nav{
+        padding-right: 0px;
+    }
+    .text{
+        padding-right: 15px;
+    }
+}
+@media(max-width:1020px){
+    .footer-nav ul:last-child {
+        margin-left: 30px;
+    }
+}
+@media(max-width:987px){
+    .name{
+        padding-right: 53%;
+    }
+    .title{
+        padding-right: 53%;
+    }
+    #Comment{
+        width: 87.5%;
+    }
+    .form{
+        padding-left: 30px;
+    }
+    .footer-nav ul{
+        margin-left: 20px;
+    }
+    .footer-nav ul:last-child{
+        margin-left: 5px;
+    }
+    .social{
+        margin-left: 85px;
+    }
+    .nav_menu{
+        padding-right: 60px;
+    }
+}
+@media(max-width:870px){
+    .social{
+        margin-left: 50px;
+    }
+    .text{
+        width: 50%;
+    }
+    .name{
+        padding-right: 46%;
+    }
+    .title{
+        padding-right: 46%;
+    }
+    .map{
+        padding-left: 35px;
+    }
+}
+@media(max-width:768px){
+    .footer-nav a{
+        font-size: 14px;
+    }
+    .social a{
+        font-size: 14px;
+    }
+    .social{
+        margin-left: 35px;
+    }
+    #comment{
+        height: 140px;
+    }
+    .name{
+        padding-right: 40%;
+    }
+    .title{
+        padding-right: 40%;
+    }
+    .footer-nav a{
+        margin-left: 20px;
+    }
+}
+@media(max-width:660px){
+    .social{
+        margin-left: 5px;
+    }
+    .footer-nav a{
+        margin-left: 8px;
+    }
+    .promo-footer img{
+      width: 175px;
+      height: 70px;
+      margin-right: 10px;
+    }
+    #comment{
+        width: 91.5%;
+    }
+}
+@media(max-width:560px){
+    .promo-footer img{
+        width: 155px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .footer-nav a{
+        font-size: 12px;
+    }
+    .social a{
+        font-size: 12px;
+    }
+    .title {
+        padding-right: 28%
+    }
+    .name {
+        padding-right: 28%;
+    }
+    .text p {
+        font-size: 12px;
+    }
+    .text a{
+        font-size: 12px;
+    }
+}
+@media(max-width:490px){
+    .form {
+        padding-left: 5px;
+    }
+    .name {
+        padding-right: 25%;
+    }
+    .title {
+        padding-right: 25%;
+    }
+    .footer {
+        width: 97%;
+    }
+    .social {
+        margin-left: 0px;
+    }
+    .footer-nav a {
+        margin-left: 0px;
+    }
+    .promo-footer img {
+        width: 150px;
+        height: 60px;
+    }
+}
+@media(max-width:475px){
+    .promo-footer {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .social {
+        margin-left: 21px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .social a {
+        font-size: 12px;
+    }
+    .promo-footer img {
+        margin-left: 20px;
+        width: 200px;
+    }
+    
+    .promo-footer img {
+        margin-top: 63px;
+    }
+    .footer-nav {
+        width: 40%;
+        display: flex;
+        margin-top: 60px;
+    }
+    .footer-nav a {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .promo img {
+        width: 190px;
+        height: 38.5px;
+    }
+
+}
+@media(max-width:450px){
+    .form {
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 50%;
+    }
+    .footer-nav a {
+        font-size: 11px;
+    }
+    .social a {
+        font-size: 11px;
+    }
+}
+@media(max-width:430px){
+    
+    #Comment {
+        width: 100%;
+    }
+    .title {
+        padding-right: 14%;
+    }
+    .name {
+        padding-right: 14%;
+    }
+}
+
