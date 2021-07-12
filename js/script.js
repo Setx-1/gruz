@@ -66,16 +66,62 @@ window.addEventListener('load',function(){
 
 $(document).ready(function(){
     $('.slider').slick({
-        arrows:true,
+        arrows:false,
         dots:true,
         adaptiveHeight:false,
         slidesToShow:1,
         slidesToScroll:1,
-        speed:500,
+        speed:2500,
         easing:'ease',
         infinite:true,
         autoplay:true,
         autoplaySpeed:2000,
+        centerMode:true,
+        swipe:true,
+        touchThresshold:20,
+        touchMove:true,
+        variableWidth:true,
+
     });
 });
     
+
+
+
+// move to перемещение / прокрутка при клике
+ const menuLinks = document.querySelectorAll('.menu_link[data-goto]');
+ if(menuLinks.length > 0){
+     menuLinks.forEach(menuLink =>{
+         menuLink.addEventListener('click',onMenuLinkClick);
+     });
+     function onMenuLinkClick(e){
+        const menuLink = e.target;
+        if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)){
+           const gotoBlock = document.querySelector(menuLink.dataset.goto); 
+           const gotoBlockValue = gotoBlock.getBoundingClientRect().top +pageYOffset -document.querySelector('header').offsetHeight;
+         
+           if (iconMenu.classList.contains('_active')){
+            document.body.classList.remove('_lock')
+            iconMenu.classList.remove('_active');
+            menuBody.classList.remove('_active');
+           }
+
+           window.scrollTo({
+               top: gotoBlockValue,
+               behavior: 'smooth'
+           });
+           e.preventDefault();
+        }
+
+     }
+ }
+ // burger menu
+ const iconMenu = document.querySelector('.menu_icon');
+ const menuBody = document.querySelector('.nav_menu');
+ if(iconMenu){
+     iconMenu.addEventListener('click',function(e){
+        document.body.classList.toggle('_lock')
+        iconMenu.classList.toggle('_active');
+        menuBody.classList.toggle('_active');
+     });
+ }

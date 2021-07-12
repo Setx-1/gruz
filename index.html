@@ -14,25 +14,32 @@
 </head>
 
 <body>
+  <header class="header">
+    
   <div class="nav">
+    
     <div class="logo">
       <a href="#"><img  class="back_logo" src="img/icon1.png" alt="logo"></a>
     </div>
+    <div class="menu_icon">
+      <span></span>
+    </div>
     <div class="nav_menu">
       <ul>
-        <li><a href="index.html">Главная</a>
+        <li><a data-goto=".page_section_3" class="menu_link" href="index.html">Главная</a>
         <div class="info_underline"></div></li>
-        <li><a href="about.html">О компании</a>
+        <li><a data-goto=".page_section_2" class="menu_link" href="about.html">Наши услуги</a>
           <div class="info_underline"></div></li>
-        <li><a href="home.html">Документы</a>
+        <li><a data-goto="" class="menu_link" href="home.html">Документы</a>
           <div class="info_underline"></div></li>
-        <li><a href="contact.html">Контакты</a>
+        <li><a data-goto=".page_section_1" class="menu_link" href="#">Контакты</a>
           <div class="info_underline"></div></li>
       </ul>
     </div>
   </div>
+</header>
   <div class="container">
-    <div class="bg">
+    <div class="bg page_section_3">
       <div class="background">
         <div class="background_img"><img src="img/logonew3.jpg" alt=""></div>
       </div>
@@ -74,7 +81,7 @@
         <p class="promo_text">Безопасность груза</p>
       </div>
     </div>
-    <div class="our_services">
+    <div class="our_services page_section_2">
       <p class="services_title subtitle">Наши Услуги</p>
       <div class="services_rows">
         <div class="row">
@@ -173,12 +180,12 @@
     </div>
   </div>
 
-  <div class="footer_button ">
+  <div class="footer_button page_section_1 ">
     <p class="subtitle">Нужно доставить груз?</p>
     <div class="buttons">
     <a href="#" class="call button" data-popup="post1">Заказать звонок</a>
-    <a href="#" class="call button" data-popup="post1">Рассчитать стоимость</a>
-    <a href="#" class="call button" data-popup="post1">Заполнить заявку с сайта</a>
+    <a href="#" class="call button price" data-popup="post1">Рассчитать стоимость</a>
+    <a href="#" class="call button online" data-popup="post1">Заполнить заявку с сайта</a>
   </div>
   </div>
 
