@@ -124,4 +124,4 @@ $(document).ready(function(){
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
      });
- }
+ } 
